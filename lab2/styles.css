@@ -1,0 +1,47 @@
+body{
+    background-color: #ffd;
+}
+
+#section_header_text{
+    color: #0dbcde;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+#section_header_text_content {
+
+    margin-bottom: 39px;
+}
+
+
+#movie_color{
+    color: red;
+}
+
+
+.container {
+    display: table;
+    width: 100%;
+}
+
+.container div {
+    display: table-cell;
+    max-width: 50%;
+}
+
+
+.footer {
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        background: #cdc7c7;
+}
+
+
+.validator {
+    display: grid;
+float: right;
+margin-top: -50px;
+height: 50%;
+width: 25%;
+}
