@@ -1,0 +1,63 @@
+
+body {
+    background-color: #fff;
+    color: #404040;
+}
+
+
+.title_heading {
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    text-decoration: underline;
+    color: #A4A400;
+    font-size: 22pt;
+    margin: 3px;
+}
+
+.sub_title {
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+    color: #A4A400;
+    font-size: 22pt;
+    margin: 3px;
+}
+
+.listItem {
+    list-style-type:none;
+}
+
+
+ .tooltipMain {
+ position: relative;
+ display: inline-block;
+ border-bottom: 2px dotted black;   
+
+ 
+} 
+
+.tooltipMain:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    opacity: 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 999;
+}
+
+
+.tooltipMain:hover::before {
+    visibility: visible;
+    opacity: 1;
+  }
